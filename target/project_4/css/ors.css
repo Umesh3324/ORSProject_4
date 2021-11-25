@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+body{
+    background-color:rgba(216, 218, 195, 0.925);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+h3{
+color: #660033;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    color: #000000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+th{
+font-weight: bold;
+color: gray;
+background: mintcream;
+font-family: Arial, Helvetica, sans-serif;
+}
+.tableporperty{
+    padding: 8px;
+    }
+td{
+    padding: 8px;
+color:#000066;
+font-weight: normal;
+}
+
+.Hr1{
+    border: 1px solid #0066cc;
+    border-radius: 1px;
+    scroll-behavior: inherit;
+}
+.Linkcolor{
+    color: #0000cc;
+    font-weight: bold;
+
+}
+.error{
+    font-weight: normal;
+    font-size: 12px;
+    color: #990000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.errorbig{
+    font-weight: normal;
+    font-size: 16px;
+    color:firebrick;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 50%;
+    border-radius: 5px;
+    border-bottom-style: double;
+    border-right-style: double;
+    border-color: lightslategrey;
+    /* border-start-end-radius:0px 0px; */
+    box-shadow: gainsboro;
+    background-color: azure;
+
+}
+
+/*
+.dropbtn{
+    border-radius: 12px;
+    color: navy;
+    border-style:solid;
+    background-color:tan;
+    padding: 10px;
+    text-align: center;
+    text-decoration:navy;
+    /* display: inline-block; */
+    font-size: 16px;
+    /* cursor:cell ;*/        
+}
+*/
+
+.btn-group .dropbtn{
+  background-color: #4CAF50; *//* Green */
+  /* background-color:tan;*/
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: navy;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+
+
+.dropdown{
+position: relative;
+display: inline-block;             
+}
+    .dropdown-content{
+        display:none;
+        /* color: grey ; */
+        position: absolute;
+        background-color: palegoldenrod;
+        min-width: 160 px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        /* z-index:3; */
+        /* touch-action: auto; */
+    }
+    .dropdown-content a{
+        color: black;
+        padding: 10px 12px;
+        text-decoration:underline;
+        display: block;
+
+                
+    }
+
+    .dropdown:hover .dropbtn{
+        background-color: rosybrown;
+    }
+    .dropdown:hover .dropdown-content{
+         display: block;
+    }
+    .Ors{
+        font-size: 40px;
+        color: #cc0000;
+    }
